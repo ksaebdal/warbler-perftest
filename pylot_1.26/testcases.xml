@@ -1,0 +1,8 @@
+
+<testcases>
+    <!-- SAMPLE TEST CASE -->
+    <case>
+        <url>http://localhost:8080</url>
+    </case>
+    
+</testcases>
