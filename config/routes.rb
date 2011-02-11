@@ -1,4 +1,6 @@
 WarblerPerftest::Application.routes.draw do
+  get "simple/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
