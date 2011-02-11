@@ -8,4 +8,4 @@ tmp/**/*
 */results/**
 apache-tomcat-6.0.32/logs/*
 apache-tomcat-6.0.32/webapps/**/*
-
+apache-tomcat-6.0.32/temp/*
