@@ -24,10 +24,6 @@ GEM
       activesupport (= 3.0.3)
       arel (~> 2.0.2)
       tzinfo (~> 0.3.23)
-    activerecord-jdbc-adapter (1.1.1)
-    activerecord-jdbcsqlite3-adapter (1.1.1)
-      activerecord-jdbc-adapter (= 1.1.1)
-      jdbc-sqlite3 (~> 3.6.0)
     activeresource (3.0.3)
       activemodel (= 3.0.3)
       activesupport (= 3.0.3)
@@ -38,7 +34,6 @@ GEM
     erubis (2.6.6)
       abstract (>= 1.0.0)
     i18n (0.5.0)
-    jdbc-sqlite3 (3.6.14.2.056-java)
     jruby-jars (1.5.6)
     jruby-openssl (0.7.3)
       bouncy-castle-java
@@ -84,9 +79,6 @@ PLATFORMS
   java
 
 DEPENDENCIES
-  activerecord-jdbc-adapter
-  activerecord-jdbcsqlite3-adapter
-  jdbc-sqlite3
   jruby-openssl
   jruby-rack
   rails (= 3.0.3)

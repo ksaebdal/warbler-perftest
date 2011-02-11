@@ -6,3 +6,6 @@ tmp/**/*
 *.war
 *.pyc
 */results/**
+apache-tomcat-6.0.32/logs/*
+apache-tomcat-6.0.32/webapps/**/*
+
