@@ -5,8 +5,9 @@ class SimpleController < ApplicationController
   end
   private
     #random time to sleep
-    #returns a random value between 0.1 and 1.0
+    #returns a random value between 0.0 and 0.5
     def sleep_duration
-      (1..10).sort_by { rand }.collect!{|x| x/10.0}[rand(10)]
+      range = (0...5)
+      range.sort_by { rand }.collect!{|x| x/10.0}[rand(range.to_a.size)]
     end
 end
