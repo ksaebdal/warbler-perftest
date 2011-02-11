@@ -3,3 +3,21 @@ run
     warble war
 
 to create a warbler-perftest.war configured for production.
+
+this app has three branches
+
+master - new rails 3.0.3 app with very few modifications.
+
+threadsafe-only - same as master but has config.threadsafe enabled
+
+thread-safe-max-min-set same as threadsafe-only with with max and min
+      explicitly set.
+
+to test checkout each branch and do the following:
+
+  rm -r apache-tomcat-6.0.32/webapps/ROOT*; warble war && cp warbler-perftest.war apache-tomcat-6.0.32/webapps/ROOT.war
+  apache-tomcat-6.032/bin/catalina.sh start
+  curl http://localhost:8080/simple/index #to ensure the application is deployed
+  cd pylot_1.26
+  python run.py -x testcases.xml -a 10 -d 60
+
