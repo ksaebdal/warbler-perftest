@@ -2,7 +2,7 @@
 <testcases>
     <!-- SAMPLE TEST CASE -->
     <case>
-        <url>http://localhost:8080</url>
+        <url>http://localhost:8080/simple/index</url>
     </case>
     
 </testcases>

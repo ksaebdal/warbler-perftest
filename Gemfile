@@ -5,9 +5,6 @@ gem 'rails', '3.0.3'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'jdbc-sqlite3'
-gem 'activerecord-jdbc-adapter'
-gem 'activerecord-jdbcsqlite3-adapter'
 gem 'jruby-openssl'
 gem 'jruby-rack'
 gem 'warbler'
